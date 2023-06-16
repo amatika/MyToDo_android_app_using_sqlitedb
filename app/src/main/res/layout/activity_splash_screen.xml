@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#160E3D"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logo"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="TO DO"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="20px"
+        android:text="Created by Amatika Wetindi"
+        android:layout_marginBottom="20px"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

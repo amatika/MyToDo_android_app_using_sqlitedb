@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity
                if(dh.addTask(tm)==true)
                {
                     bd.dismiss();
-                   Toast.makeText(MainActivity.this, "Data Submitted", Toast.LENGTH_LONG).show();
+                   Toast.makeText(MainActivity.this, "Data Submitted Successfully", Toast.LENGTH_LONG).show();
                }
                else
                {
